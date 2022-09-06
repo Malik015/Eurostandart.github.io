@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>EuroStandart Натяжные потолки</title>
+    <link rel="stylesheet" href="index.css">
+	
+</head>
+
+<body>
+ <div class="block1"><img src="1.png"></div>
+ <div class="block2"><img src="1.png"></div>
+
+	<div class="menui">
+
+<p id="first" onclick="first()">Показать блок</p>
+	<p id="first_yelloy"; style="display:none" onclick="first_yelloy()">Скрыть блок </p>
+
+
+<div id="second_hide" style="display:none">
+
+<div class="menu">
+	<header>
+		<div class="container">
+			<div class="Cont">
+				<nav>
+					<ul>
+						<li><a href="../../html/index.html">Онлайн каталог</a></li>
+						<li><a href="../html/about.html">Контакты</a></li>
+						<li><a href="../../html/index.html">Заказать потолки</a></li>
+						<li><a href="../../html/index.html">Виды потолков</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!--
+	<a href="">назад</a>
+	<a href="#f1">1</a>
+	<a href="#f2">2</a>
+	<a href="#f3">3</a>
+	<a href="#f4">4</a>
+	<a href="#f5">5</a>
+	<a href="#f6">6</a>
+	<a href="#f7">7</a>
+	<a href="#f8">8</a>
+	<a href="#f9">9</a>
+-->
+
+</div>
+</div>
+</div>
+
+<script>
+	function first() {
+		document.getElementById("second_hide").setAttribute("style", "opacity:1; transition: 1s; height: 200%;");
+		document.getElementById("first").setAttribute("style", "display: none");
+		document.getElementById("first_yelloy").setAttribute("style", "display: block");
+	}
+	function first_yelloy() {
+		document.getElementById("second_hide").setAttribute("style", "display: none");
+		document.getElementById("first_yelloy").setAttribute("style", "display: none");
+		document.getElementById("first").setAttribute("style", "display: block");
+	}
+</script>
+</body>
+</html>
