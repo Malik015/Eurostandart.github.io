@@ -37884,18 +37884,25 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 263px;
+  min-height: 245px;
 }
 
 .u-header .u-icon-1 {
-  width: 202px;
-  height: 206px;
-  margin: 22px auto 0 20px;
+  width: 144px;
+  height: 148px;
+  margin: 58px auto 0 19px;
   padding: 0;
 }
 
+.u-header .u-text-1 {
+  font-size: 3rem;
+  background-image: none;
+  font-weight: 700;
+  margin: -112px 376px 0 211px;
+}
+
 .u-header .u-menu-1 {
-  margin: -115px 0 0 auto;
+  margin: -56px 0 60px auto;
 }
 
 .u-header .u-nav-1 {
@@ -37906,28 +37913,27 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  font-size: 3rem;
-  background-image: none;
-  font-weight: 700;
-  margin: -56px 330px 60px 257px;
-}
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
     min-height: 364px;
   }
 
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -157px;
+  .u-header .u-icon-1 {
+    width: 144px;
+    height: 147px;
+    margin-left: 19px;
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -36px;
+    margin-top: -157px;
     margin-right: 301px;
     margin-left: 244px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -152px;
   }
 }
 @media (max-width: 991px) {
@@ -37937,23 +37943,33 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     font-size: 2.25rem;
-    margin-top: -10px;
+    margin-top: -132px;
     margin-right: 52px;
     margin-left: 262px;
   }
+
+  .u-header .u-menu-1 {
+    margin-top: -83px;
+  }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 321px;
+  }
+
   .u-header .u-icon-1 {
-    margin-top: 9px;
+    margin-top: 64px;
+    margin-left: 0;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -4px;
+    margin-right: 178px;
     margin-left: 0;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -102px;
-  }
-
-  .u-header .u-text-1 {
-    margin: 62px 134px 0 44px;
+    margin-top: -212px;
   }
 }
 @media (max-width: 575px) {
@@ -37964,16 +37980,13 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-icon-1 {
     width: 120px;
     height: 123px;
+    margin-top: 9px;
     margin-left: 10px;
   }
 
-  .u-header .u-menu-1 {
-    margin-top: -102px;
-  }
-
   .u-header .u-text-1 {
+    margin-top: -4px;
     margin-right: 45px;
-    margin-bottom: 60px;
     margin-left: 10px;
   }
 }
