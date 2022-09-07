@@ -37915,7 +37915,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 364px;
+    min-height: 230px;
   }
 
   .u-header .u-icon-1 {
@@ -37926,68 +37926,80 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -157px;
-    margin-right: 301px;
-    margin-left: 244px;
+    margin-top: -152px;
+    margin-right: 324px;
+    margin-left: 221px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -152px;
+    margin-top: -126px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-sheet-1 {
-    min-height: 264px;
+    min-height: 187px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-top: 25px;
   }
 
   .u-header .u-text-1 {
     font-size: 2.25rem;
-    margin-top: -132px;
-    margin-right: 52px;
-    margin-left: 262px;
+    margin-top: -102px;
+    margin-right: 123px;
+    margin-left: 191px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -83px;
+    margin-top: 1px;
+    margin-bottom: 28px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
-    min-height: 321px;
+    min-height: 167px;
   }
 
   .u-header .u-icon-1 {
-    margin-top: 64px;
+    margin-top: 15px;
     margin-left: 0;
   }
 
   .u-header .u-text-1 {
-    margin-top: -4px;
-    margin-right: 178px;
-    margin-left: 0;
+    width: 224px;
+    margin-top: -114px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -212px;
+    margin-top: -94px;
+    margin-bottom: 42px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 277px;
+    min-height: 255px;
   }
 
   .u-header .u-icon-1 {
     width: 120px;
     height: 123px;
-    margin-top: 9px;
-    margin-left: 10px;
+    margin-top: 20px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -4px;
-    margin-right: 45px;
-    margin-left: 10px;
+    width: auto;
+    margin-top: -11px;
+    margin-right: 107px;
+    margin-left: 0;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -135px;
+    margin-bottom: -62px;
   }
 }
  .u-footer {
