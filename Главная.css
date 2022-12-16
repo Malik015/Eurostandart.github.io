@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 322px;
+  min-height: 608px;
 }
 
 .u-section-1 .u-list-1 {
@@ -185,10 +185,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 856px;
-  }
-
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 7.5px) calc(50% - 7.5px);
     min-height: 498px;
@@ -211,10 +207,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1153px;
-  }
-
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
   }
@@ -233,10 +225,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 918px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
   }
